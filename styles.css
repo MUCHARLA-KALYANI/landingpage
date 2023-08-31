@@ -1,0 +1,117 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;   
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(room1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;   
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right:60px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+/*ul li a:hover{
+    color: white;
+    text-decoration: underline; 
+    text-decoration-color:darkcyan;
+    text-underline-offset: 10px;
+    transition: 0.5s;
+    }*/
+.text{
+    float: left;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.title h1{
+   color: white;
+   font-size: 55px;
+   font-family:sans-serif;
+}
+.para{
+    position:absolute;
+    top: 57%;
+    left:37%;
+}
+.para p:nth-last-child(1){
+        color: white;
+        font-size: 15px;
+        margin-left: 70px;
+}
+.para p:nth-last-child(2){
+    color: white;
+    font-size: 15px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.btn{
+    border: 2px solid darkcyan;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5 ease;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+    border-color: darkcyan;
+    color: #fff;
+    background-image: -webkit-linear-gradient(90deg, darkcyan 50%, transparent 50%);
+    background-image: linear-gradient(90deg, darkcyan 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 0.7s ease-in-out;
+    transition: background 0.7s ease-in-out;
+  }
+  .btn:hover {
+    background-position: 0;
+  }
+.animated-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+  }
+  .animated-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: darkcyan; 
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .animated-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
